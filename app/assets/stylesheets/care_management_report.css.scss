@@ -1,0 +1,100 @@
+.translation_missing{
+  color: green;
+}
+#careManagementReport{
+  h1, h2, h3{
+    color: #030ca8;
+  };
+
+  h2{
+    font-size: 17px;
+    font-weight: bolder;
+  }
+  #header{
+    border-bottom: 2px solid #062563;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    padding-top: 60px;
+
+    .logo{
+      background-image: url('/assets/sleep_data_logo.png');
+      background-repeat: no-repeat;
+      height: 90px;
+    }
+
+    .address{
+      text-align: right;
+    }
+
+  }
+  h1{
+    padding-bottom: 15px;
+    border-bottom: 3px solid #062563;
+
+    .version{
+      color: #062563; 
+      font-size: .6em;
+    }
+  }
+
+  #totals{
+    #summary{
+      color: #062563; 
+      margin-top: 15px;
+      padding: 10px;
+      border: 1px solid #062563;
+      background-color: #e0ecff;
+      font-weight: bolder;
+    }
+    .qualifiers{
+      color: grey;
+    }
+  }
+
+  .dataRows{
+    color: grey;
+    ul{
+      max-width: 40em;
+      padding: 0;
+      overflow-x: hidden;
+      list-style: none;
+      margin-left: .33em;
+
+      li{
+        margin-bottom: 8px;
+      }
+      li:before{
+        float: left;
+        width: 0;
+        white-space: nowrap;
+        content: ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+      }
+
+      span:first-child{
+        padding-right: 0.33em;
+        background: white;
+      }
+
+      span + span{
+        float: right;
+        padding-left: 0.33em;
+        background: white;
+        font-weight: bolder;
+        color: #062563;
+      }
+    }
+  }
+  #summaryTotals{
+    ul{
+      margin-bottom: 0px;
+    }
+    span{
+      background-color: #e0ecff;
+      padding-right: 4px;
+    }
+    div{
+      font-weight: bolder;
+      background-color: #e0ecff;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+// = require_self
+// = require bootstrap.min
+// = require bootstrap-responsive.min
+// = require ace-fonts
+// = require ace
+// = require ace-responsive
+// = require ace-skins
+// = require care_management_report
+
+.clear{
+  clear: both;
+}
