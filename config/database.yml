@@ -6,7 +6,7 @@ development:
   username: root
   password: 
   socket: /tmp/mysql.sock
-  database: blog_dev
+  database: playground_dev
 
 test:
   adapter: mysql2
@@ -16,7 +16,7 @@ test:
   username: root
   password: 
   socket: /tmp/mysql.sock
-  database: blog_test
+  database: playground_test
   
 production:
   adapter: mysql2
@@ -26,4 +26,4 @@ production:
   username: root
   password: 
   socket: /tmp/mysql.sock
-  database: blog_prod
+  database: playground_prod
